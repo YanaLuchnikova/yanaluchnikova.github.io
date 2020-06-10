@@ -69,9 +69,9 @@ document.getElementById('result_st_2').innerHTML = avg;
 let ll = Array();
 let sum_2=0;
 let str =" ";
-pp=prompt("Введите количество значений массива");
+pp=prompt("Введите количество букв в слове");
 for (let i = 0; i < pp; i++) {
-    ll[i] = prompt("Введите " + (i+1) + "-й элемент массива");
+    ll[i] = prompt("Введите " + (i+1) + "-ю букву");
     str += ll[i] + " ";
     if(ll[i]=="a" || ll[i]=="а"){ 
         sum_2+=1;
