@@ -104,7 +104,7 @@ document.getElementById('result_multi_3_2').innerHTML = sum_31;
 document.getElementById('result_multi_3_3').innerHTML = sum_32;
 
 if(sum_31>sum_32){
-    result="Больше ложных значений";
+    result="Больше ложных значений'";
 }
 else if(sum_31<sum_32){
     result="Больше истинных значений";
