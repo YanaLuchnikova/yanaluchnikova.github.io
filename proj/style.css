@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    background-color: lightgoldenrodyellow;  
+}
+
+.form > input, .button_1>button {
+    margin-right: 8px;
+    margin-top: 8px;
+    padding: 4px;
+    cursor: pointer;
+    border: 1px solid;
+    font-size: 1em;;
+ 
+}
+.form>.button{
+    display: flex;
+    justify-content: space-around;
+}
